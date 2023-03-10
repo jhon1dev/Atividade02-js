@@ -1,4 +1,29 @@
 html {
-  height: 100%;
-  width: 100%;
+  padding:0px;
+  margin:0px;
+}
+
+.tabela{
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+table{
+/*   display: flex; */
+  border: solid;
+    border-radius: 10px;
+    box-shadow: 1px 4px 10px #6de708;
+    height: 250px;
+    width: 400px;
+  padding:10px;
+}
+
+table input{
+  width: 100px;
+}
+
+#output{
+  height: 100px;
+  width: 100px;
 }
