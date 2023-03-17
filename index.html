@@ -11,12 +11,10 @@
 <body>
   <div class="tabela">
     
-  
   <table> 
     <tr>
     <th>CÁLCULO DO IMC</th>
     </tr>
-    <div class="entradas">
     <tr>
       <td>NOME: <input type="text" id="nome"></td>
     </tr>
@@ -26,11 +24,13 @@
     </tr>
     <tr>
       <td>ALTURA: <input type="text" id="altura"></td>
-    </div>
-      <td> <input type="text" id="output" disabled> </td>
+
     </tr>
     <tr>
-      <td> <button onclick=""> CALCULAR </button> </td>
+      <td> <button onclick="exibirInfos()"> CALCULAR </button> </td>
+    </tr>
+    <tr> <td> <textarea id="output" disabled> </textarea>
+    </td> 
     </tr>
   </table>
     </div>

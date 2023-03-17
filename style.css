@@ -1,6 +1,7 @@
 html {
   padding:0px;
   margin:0px;
+  background-color: #292323;
 }
 
 .tabela{
@@ -12,18 +13,41 @@ html {
 table{
 /*   display: flex; */
   border: solid;
+  background-color: white;
     border-radius: 10px;
-    box-shadow: 1px 4px 10px #6de708;
+    box-shadow: 1px 4px 10px #f2ec3a;
     height: 250px;
     width: 400px;
-  padding:10px;
+  padding:3px;
 }
 
 table input{
+  display:flex;  
+  text-align: center;
+  gap:100px;
   width: 100px;
 }
 
+table td{
+  display: inline-flex;
+}
+
+tr{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+tr button{
+  margin-top: 5px;
+    width: 90px;
+    height: 25px;
+    background-color: rgb(77, 77, 77);
+    color: white;
+}
+
 #output{
+  background-color: #fff1d6;
   height: 100px;
-  width: 100px;
+  width: 400px;
 }
